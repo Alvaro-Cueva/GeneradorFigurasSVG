@@ -28,16 +28,17 @@ Además, este proyecto abarca diferentes disciplinas de desarrollo, incluyendo *
    ```bash
    git clone https://github.com/usuario/mi-proyecto-web.git
 2. ***Abre el proyecto en tu IDE favorito (como Eclipse, IntelliJ IDEA, o NetBeans).*
+
 3. **Configura Tomcat**:
    - Si estás utilizando un IDE como Eclipse:
-  -- Asegúrate de tener configurado Tomcat en el IDE.
-  -- Agrega el proyecto a Tomcat y despliega la aplicación.
+     - Asegúrate de tener configurado Tomcat en el IDE.
+     - Agrega el proyecto a Tomcat y despliega la aplicación.
 
-- Si estás ejecutando Tomcat manualmente:
-  -- Genera el archivo WAR del proyecto.
-  -- Despliega el archivo WAR en el directorio `webapps` de Tomcat.
+   - Si estás ejecutando Tomcat manualmente:
+     - Genera el archivo WAR del proyecto.
+     - Despliega el archivo WAR en el directorio `webapps` de Tomcat.
+
 4.**Accede a la aplicación desde tu navegador**:
 
-    ```bash
    http://localhost:8080/mi-proyecto-web
 
